@@ -19,7 +19,7 @@ public class App
     
     	
     	
-    	Tyre t= (Tyre)context.getBean("tyre");
-    	System.out.println(t);	
+//    	Tyre t= (Tyre)context.getBean("tyre");
+//    	System.out.println(t);	
     }
 }
