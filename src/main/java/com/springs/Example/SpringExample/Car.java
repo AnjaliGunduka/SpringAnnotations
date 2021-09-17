@@ -3,15 +3,26 @@ package com.springs.Example.SpringExample;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Car implements Vehicle {
-
+public class Car implements Vehicle{
 	private Tyre tyre;
-	private Tyre getTyre()
-	{
+	
+	
+	
+	public Tyre getTyre() {
 		return tyre;
 	}
+
+
+
+	public void setTyre(Tyre tyre) {
+		this.tyre = tyre;
+	}
+
+
+
 	public void drive()
-{
-	System.out.println("Im driving the car");
+	{
+		System.out.println("Im driving the Car"+tyre);
+	}
 }
-}
+
