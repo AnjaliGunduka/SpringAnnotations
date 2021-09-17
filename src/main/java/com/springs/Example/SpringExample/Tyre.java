@@ -1,5 +1,8 @@
 package com.springs.Example.SpringExample;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tyre {
 
 //	public Tyre(String brand) {
